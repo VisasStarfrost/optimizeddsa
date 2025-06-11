@@ -1,10 +1,12 @@
+//runtime 0 ms (beats 100%)
+
 #include <vector>
 #include <unordered_map>
 using namespace std;
 
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
+    vector<int> twoSum(const vector<int>& nums, const int target) {
         unordered_map<int, int> cache;
         cache.reserve(nums.size()); //avoid rehashing
         for (int i = 0; i < nums.size(); ++i) {
