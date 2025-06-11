@@ -1,3 +1,5 @@
+//runtime 0ms (beats 100%)
+
 #include <stack>
 #include <string>
 using namespace std;
